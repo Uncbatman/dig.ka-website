@@ -6,69 +6,71 @@
   <meta name="description" content="dig.ka - Order what you want from your local shop. Fast, convenient, no wasted trips." />
   <title>dig.ka</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      background-image: url('dig.ka logo.png');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+  </style>
 </head>
-<body class="bg-black text-white font-sans">
+<body class="text-gray-900 font-sans">
 
   <!-- Hero -->
   <section class="min-h-screen flex flex-col justify-center items-center text-center px-6" role="main" aria-labelledby="hero-heading">
     <h1 id="hero-heading" class="text-4xl md:text-6xl font-bold mb-6">
       Order what you want from your local shop.
     </h1>
-    <p class="text-lg md:text-xl text-gray-300 max-w-xl mb-8">
-      Fast. Convenient. No wasted trips.
-    </p>
+   
     <div class="flex flex-col gap-4">
-      <button class="bg-white text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:opacity-80 transition" onclick="alert('Check availability feature coming soon')">
-        Check availability before leaving home.
-      </button>
-      <button class="bg-white text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:opacity-80 transition" onclick="alert('Start ordering feature coming soon')">
-        Start Ordering
-      </button>
-      <button class="bg-white text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:opacity-80 transition" onclick="alert('Currently available in Nairobi')">
-        Available in Nairobi.
-      </button>
+      <p class="text-xl font-semibold">Check availability before leaving home.</p>
+      <p class="text-xl font-semibold">Start Ordering</p>
+      <p class="text-xl font-semibold">Available in Nairobi.</p>
     </div>
   </section>
 
   <!-- Value Props -->
   <section class="py-20 px-6 max-w-5xl mx-auto grid md:grid-cols-3 gap-10 text-center">
     <div>
-      <h3 class="text-xl font-semibold mb-2">Save Time</h3>
-      <p class="text-gray-400">Order in minutes. No walking shop to shop.</p>
+      <h3 class="text-2xl font-semibold mb-2">Save Time</h3>
+      <p style="color: goldenrod;">Order in minutes. No walking shop to shop.</p>
     </div>
     <div>
-      <h3 class="text-xl font-semibold mb-2">Simple</h3>
-      <p class="text-gray-400">Use WhatsApp. No new apps.</p>
+      <h3 class="text-2xl font-semibold mb-2">Simple</h3>
+      <p style="color: goldenrod;">Use WhatsApp. No new apps.</p>
+    </div>
+     <div>
+      <h3 class="text-2xl font-semibold mb-2">Efficient</h3>
+      <p style="color: goldenrod;">Save time, save energy.</p>
     </div>
   </section>
 
   <!-- How It Works -->
-  <section class="py-20 bg-gray-900 px-6 text-center">
-    <h2 class="text-3xl font-bold mb-12">How it works</h2>
-    <div class="grid md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+  <section class="pt-12 pb-12 bg-gray-900 px-4 text-center flex flex-col items-center justify-center">
+    <h2 class="text-4xl font-bold mb-12">How it works</h2>
+    <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto place-items-center">
       <div>
-        <p class="text-4xl mb-4" aria-hidden="true">1</p>
-        <p class="text-gray-300">Send a message with exactly what you want.</p>
+        <p class="text-5xl mb-4" aria-hidden="true">1</p>
+        <p class="text-lg" style="color: goldenrod;">Send a message with exactly what you want.</p>
       </div>
       <div>
-        <p class="text-4xl mb-4" aria-hidden="true">2</p>
-        <p class="text-gray-300">We confirm availability and price.</p>
+        <p class="text-5xl mb-4" aria-hidden="true">2</p>
+        <p class="text-lg" style="color: goldenrod;">We confirm availability and price.</p>
       </div>
       <div>
-        <p class="text-4xl mb-4" aria-hidden="true">3</p>
-        <p class="text-gray-300">Pickup <em>- delivery coming soon</em></p>
+        <p class="text-5xl mb-4" aria-hidden="true">3</p>
+        <p class="text-lg" style="color: goldenrod;">Pickup</p>
       </div>
     </div>
   </section>
 
   <!-- CTA -->
   <section class="py-20 text-center px-6" aria-labelledby="cta-heading">
-    <h2 id="cta-heading" class="text-3xl md:text-4xl font-bold mb-6">
+    <h2 id="cta-heading" class="text-4xl md:text-5xl font-bold mb-6">
       Stop wasting time walking between shops.
     </h2>
-    <button class="bg-white text-black px-8 py-4 rounded-2xl text-lg font-semibold hover:opacity-80 transition" onclick="alert('Order feature coming soon')">
-      Order Now
-    </button>
+    <button class="text-xl font-semibold">Order Now</button>
   </section>
 
   <!-- Footer -->
